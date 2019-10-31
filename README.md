@@ -1,2 +1,2 @@
 # Mapeo 3D
-Sitio web del proyecto C3D
+Nueva versión de la página web del proyecto cartograma 3D.
