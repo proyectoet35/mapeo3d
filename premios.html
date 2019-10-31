@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="eS">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="Css/estilo.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/css/mdb.min.css" rel="stylesheet">
+  <title>C3D  | Premios</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: rgb(0, 0, 0, 0.9);">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="Css/Img/logo.png" width="70" height="40" class="d-inline-block align-top" alt="">
+            <strong style="font-size:120%;  color: white;">| C3D </strong>
+          </a>
+          <!-- <a class="navbar-brand" href="#">CARTOGRAMA 3D</a> -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a style="color: white;" class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a style="color: white;" class="nav-link" target="_blank"
+                  href="https://proyectoet35.github.io/c3d/aplicacionweb.html">Demo</a>
+              </li>
+              <li class="nav-item">
+                <a style="color: white;" class="nav-link" href="usar-c3d.html">Como usar C3D</a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+      </div>
+
+      <div style="margin-top: 60px">
+          <div id="usarc3d" class="card bg-dark text-white">
+              <img style="width: 100%; height: 400px; filter:brightness(0.5);" id="imagenpresentacion"
+                  src="Css/Img/web.png  " class="card-img mask rgba-black-slight" alt="Inicio">
+              <div class="card-img-overlay">
+                  <h5 style="font-size: 80px;text-align: center; margin-top: 50px; font-weight: bold; text-shadow: black 3px 3px;"
+                      class="card-title text-center" style="position: relative;
+                      display: inline-block;">Premios 
+                  </h5>
+              </div>
+          </div>
+      </div>
+
+      <div class="container text-center">
+
+      <h1 id="textodeinicio">Actualmente el proyecto ganó 3 premios</h1>
+      <div class="card mb-3">
+          <img src="Css/Img/mencionPied.gif" class="card-img-top" alt="...">
+          <div id="pied" class="card-body">
+            <h5 class="card-title">Menciones PIED</h5>
+            <p class="card-text">
+                Este certamen está organizado por el Ministerio de Educación e Innovación de la Ciudad de Buenos Aires y está dirigido a  supervisores, directivos y docentes de las escuelas correspondientes a Nivel inicial, primario y secundario impactadas por el Plan S@rmiento BA.</p>
+          </div>
+          <a href="https://campusvirtualintec.buenosaires.gob.ar/course/view.php?id=1153" target="_blank" class="btn btn-primary">Ver mas</a>
+
+        </div>
+        <div class="card py-4">
+            <img src="Css/Img/innova.jpg" class="card-img-top" alt="...">
+
+          <div id="innova" class="card-body">
+            <h5 class="card-title">Feria de ciencias 2019 (INNOVA)</h5>
+            <p class="card-text">Ganamos como proyecto de innovación tecnológica en educación la posibilidad de representar a CABA en la feria nacional de ciencias, arte y tecnología 2019.</p>
+          </div>
+        </div>
+     
+
+      <div class="card mb-3 py-4">
+          <img src="Css/Img/mapas.JPG" style="height: 300px;" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 id="edtresde" class="card-title">Educación 3D</h5>
+            <p class="card-text">
+                Primer premio, en el concurso que premia proyectos educativos que exploran las posibilidades de la impresora 3D dentro del aula.</p>
+          </div>
+        </div>
+      </div>
+
+    <!-- JQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/js/mdb.min.js"></script>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+
+ScrollReveal().reveal('#textodeinicio', {
+      delay: 800,
+      distance: '150%',
+      duration: 500,
+      origin: 'top',
+    });
+
+    ScrollReveal().reveal('#pied', {
+      delay: 800,
+      distance: '150%',
+      duration: 500,
+      origin: 'right',
+    });
+
+    ScrollReveal().reveal('#edtresde', {
+      delay: 800,
+      distance: '150%',
+      duration: 500,
+      origin: 'bottom',
+    });
+
+    ScrollReveal().reveal('#innova', {
+      delay: 800,
+      distance: '150%',
+      duration: 500,
+      origin: 'left',
+    });
+
+
+  </script>
+</body>
+
+</html>

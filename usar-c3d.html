@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>C3D | Como usar C3D</title>
+
+    <!-- Bootstrap y CSS -->
+    <link rel="stylesheet" href="Css/main.css">
+    <link rel="stylesheet" href="Css/BS/animate.min.css">
+    <link rel="stylesheet" href="Css/BS/all.css">
+    <link rel="stylesheet" href="Css/BS/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/BS/mdb.min.css">
+</head>
+
+<body>
+    <header>
+        <nav id="navegadorPrincipal" class="navbar navbar-expand-lg navbar-dark black fixed-top ml-auto">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="Css/Img/logo.png" width="70" height="45" class="d-inline-block align-top"><strong
+                        style="font-size: 120%;">| C3D</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="https://proyectoet35.github.io/c3d/aplicacionweb.html">Demo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="https://proyectoet35.github.io/c3d/index.html">Descargas</a>
+                        </li>
+                        <li class="nav-item">
+                                <a style="color: white;" class="nav-link" href="premios.html">Premios</a>
+                              </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <link href='https://fonts.googleapis.com/css?family=Wire+One|Raleway:300' rel='stylesheet' type='text/css'>
+        <div style="margin-top: 60px">
+            <div id="usarc3d" class="card bg-dark text-white">
+                <img style="width: 100%; height: 400px; filter:brightness(0.5);" id="imagenpresentacion"
+                    src="Css/Img/maparojo.jpg" class="card-img mask rgba-black-slight" alt="Inicio">
+                <div class="card-img-overlay">
+                    <h5 style="font-size: 80px;text-align: center; margin-top: 50px; font-weight: bold; text-shadow: black 3px 3px;"
+                        class="card-title text-center" style="position: relative;
+                        display: inline-block;">¿Cómo utilizar C3D?
+                    </h5>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <section id="contenidoDinamico" style="margin-top: 5%;">
+            <div id="presentacion" class="card text-center container" style="width: 100%; display:block;">
+                <div class="card-body">
+                    <h5 style="font-size: 40px; font-weight: bold;" class="card-title">¿Sos profesor y querés usar C3D
+                        en el aula?</h5>
+                    <p id="seva" style="font-size: 20px;" class="card-text">C3D te va a permitir visualizar datos como
+                        nunca antes. Ya seas profesor de Geografia, Historia, Civica e incluso Biologia o cualquier otra
+                        materia!. Pero si entraste aca, seguro que queres saber como lo podes usar en el aula. Las
+                        posibilidades son muchas! Segui los siguientes pasos y vas a conocer nuestras recomendaciones.
+                    </p>
+                    <button id="comenzar" type="button" class="btn btn-primary btn-lg btn-block">¡Comenzar!</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- JQuery, Popper, Bootstrap, MDB, main -->
+    <script type="text/javascript" src="Js/BS/jquery.min.js"></script>
+    <script type="text/javascript" src="Js/BS/popper.min.js"></script>
+    <script type="text/javascript" src="Js/BS/bootstrap.min.js"></script>
+    <script type="text/javascript" src="Js/BS/mdb.min.js"></script>
+    <script type="text/javascript" src="Js/main.js"></script>
+    <script>
+        $('#comenzar').on('click', pasosAseguir)
+    </script>
+</body>
+
+</html>

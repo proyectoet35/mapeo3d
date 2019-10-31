@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="eS">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="Css/estilo.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/css/mdb.min.css" rel="stylesheet">
+  <title>C3D  | Inicio</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg fixed-top" style="background-color: rgb(0, 0, 0, 0.9);">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="Css/Img/logo.png" width="70" height="40" class="d-inline-block align-top" alt="">
+        <strong style="font-size:120%;  color: white;">| C3D </strong>
+      </a>
+      <!-- <a class="navbar-brand" href="#">CARTOGRAMA 3D</a> -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a style="color: white;" class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a style="color: white;" class="nav-link" target="_blank"
+              href="https://proyectoet35.github.io/c3d/aplicacionweb.html">Demo</a>
+          </li>
+          <li class="nav-item">
+            <a style="color: white;" class="nav-link" href="premios.html">Premios</a>
+          </li>
+          <li class="nav-item">
+            <a style="color: white;" class="nav-link" href="usar-c3d.html">Como usar C3D</a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+  </div>
+  <!-- VIDEO -->
+  <header>
+    <div class="overlay"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="Css/Img/header.mp4" type="video/mp4">
+    </video>
+    <div class="container h-100">
+      <div class="d-flex h-100 text-center align-items-center">
+        <div class="w-100 text-white">
+          <h1 id="bienvenido" class="display-3">Bienvenidos a C3D</h1>
+          <p id="intro" class="lead mb-0">Una nueva forma de visualizar datos</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+
+  <section id="principal" class="my-4">
+    <div class="container text-center col-md-10">
+      <h1 id="titulo" style="font-size: 50px;">¿Cómo surgió la idea de este proyecto?</h1>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="card">
+            <div class="card-body">
+              <p style="font-size: 20px;" id="parrafo1" class="text-center">Desde 2015, en desarrollo de
+                sistemas (materia de 6to
+                año), venimos
+                trabajando con visualización de información.
+                Esto nos permite aprender conceptos de diseño, al mismo tiempo que unimos todos los
+                conocimientos de
+                programación y bases de datos.
+                Durante el año 2017 se trabajó con un ejercicio con mapas, aprendiendo a colorear las
+                provincias de diferentes
+                colores según algún dato.
+                Pero esta idea no era mas que un ejerció para aprender sobre como modificar archivos( en
+                este caso modificar
+                el color que tenia cada provincia en un mapa).
+              </p><br>
+              <p style="font-size: 20px;" id="parrafo2" class="text-center">En 2018 se anuncia la llegada
+                del espacio digital al
+                colegio y con este
+                nuevo espacio, muchas tecnologías que hasta ese momento no estaban presentes.
+                De inmediato establecimos una relación con los ayudantes tecnológicos que permitieron el
+                uso del espacio por
+                parte de alumnos de 6to año a cambio de que estos generen proyectos que exploren las
+                tecnologías.
+                La intención era mostrarle a los profesores de 1er año de que forma se podían integrar
+                tablets, notebooks,
+                arduinos y la impresora 3D al trabajo áulico.
+              </p><br>
+              <p style="font-size: 20px;" id="parrafo3" class="text-center">Ahí surge una propuesta de los
+                facilitadores
+                pedagógicos: hacer una muestra
+                a mediados de año con los proyectos que se estaban realizando.
+                Muchos de los cuales estaban apenas iniciados. Si bien la lista de proyectos era grande
+                ninguno estaba usando
+                la impresora 3D. Y la verdad que teníamos ganas de usarla.
+              </p><br>
+              <button id="boton" type="button" class="btn btn-outline-success">Conocer más sobre el proyecto</button>
+
+            </div>
+          </div><br><br>
+        </div>
+
+        <div class="col-sm-6 col-md-12 col-sm-12 col-lg-6">
+
+          <h5 id="titulo" style="font-size: 45px;" class="card-title">¿A quién está
+            dirgido?</h5>
+          <p style="font-size: 25px;" class="card-text">Este proyecto está dirigido a los alumnos del ciclo
+            básico con el fín
+            de acercarles una herramienta que le
+            permita a los chicos y profesores interactuar con los datos de una forma diferente,
+            tener otro tipo vizualización para que los alumnos tengan una imagen mas dimensionada
+            sobre la materia.</p>
+
+        </div>
+        <div class="col-sm-6 col-md-12 col-sm-12 col-lg-6">
+
+          <video id="mapa" src="Css/Img/narrativa.mp4" controls style="max-width:100%; height:auto"></video>
+        </div>
+        <a href="https://www.instagram.com/mapeo3d/" target="_blank"
+          class="btn btn-primary col-12 col- btn-lg active my-4 " role="button" aria-pressed="true">Quiero saber más</a>
+        <small class="col-12">Visita nuestra pagina de Instagram para ver las visitas a otras escuelas</small>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <hr style="width: 75%;">
+
+  <section id="especial" style="background-color: ghostwhite;">
+    <div class="container">
+      <h2 id="titulo" style="font-size: 50px; padding-top: 20px;"
+        class="h1-responsive font-weight-bold text-center my-5">¿Qué es lo hace tan especial a C3D?
+      </h2>
+      <p class="lead grey-text text-center w-responsive mx-auto mb-5">Cartograma 3D busca manifestar el poder que
+        tienen los datos simples cuando los visualizamos de forma creativa, y acercar a los alumnos de geografía
+        los
+        datos que normalmente generan rechazo por estar acumulados en tablas y hojas de cálculo que suelen ser
+        confusas.</p>
+      <div class="row">
+        <div id="foto" class="col-lg-5 text-center text-lg-left">
+          <img style="margin-bottom: 20px;" class="img-fluid" src="Css/Img/especial.png" alt="Sample image">
+        </div>
+        <div class="col-lg-7">
+          <div class="row mb-3">
+
+            <div class="col-1">
+              <i class="fas fa-share fa-lg indigo-text"></i>
+            </div>
+            <div id="izquierda" class="col-xl-10 col-md-11 col-10">
+              <h5 id="rapido" class="font-weight-bold mb-3">Rápido</h5>
+              <p id="sube" class="grey-text">Una de las mayores ventajas que tiene C3D es que podes visualizar y
+                cargar
+                datos nuevos de una manera muy rápida y sin mucho esfuerzo de por medio de manera inmediata.
+              </p>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-1">
+              <i class="fas fa-share fa-lg indigo-text"></i>
+            </div>
+            <div id="izquierda" class="col-xl-10 col-md-11 col-10">
+              <h5 id="tresde" class="font-weight-bold mb-3">Impreso en 3D</h5>
+              <p id="sube" class="grey-text">Utilizamos la tecnología de impresión 3D que nos permite poder tener de
+                manera física los objetos tridimensionales generados por el software.
+              </p>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-1">
+              <i class="fas fa-share fa-lg indigo-text"></i>
+            </div>
+            <div class="col-xl-10 col-md-11 col-10">
+              <h5 id="facil" class="font-weight-bold mb-3">Fácil de entender</h5>
+              <p id="sube" class="grey-text">Es un sistema que esta abierto para todo el público, no hace falta
+                tener un conocimieto profundo en estadística para poder entender la información.
+              </p>
+            </div>
+
+          </div>
+          <div class="row mb-3">
+            <div class="col-1">
+              <i class="fas fa-share fa-lg indigo-text"></i>
+            </div>
+            <div id="izquierda" class="col-xl-10 col-md-11 col-10">
+              <h5 id="free" class="font-weight-bold mb-3">Sofware y código libre</h5>
+              <p id="sube" id="sube class=" grey-text">Cartograma 3D es un sistema de software libre bajo la licencia <a
+                  href="https://es.wikipedia.org/wiki/GNU_General_Public_License"> GNU GPL v3</a>, eso quiere decir que
+                garantiza a los usuarios finales la libertad de usar, estudiar, compartir y modificar el software a
+                gusto.
+              </p>
+              <h3 id="sube">Visita el repositorio si quieres saber más</h3>
+              <button id="git" style="background-color:gainsboro" type="button" class="btn btn-git"><i
+                  class="fab fa-github pr-1 "></i><a href="https://github.com/proyectoet35"
+                  target="_blank">Github</a></button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <hr style="width: 75%;">
+  <div class="container">
+    <div class="col-sm-12 text-center">
+
+      <!-- Section: Team v.1 -->
+      <section class="team-section text-center my-5">
+
+        <!-- Section heading -->
+        <h2 id="titulo" style="font-size: 45px;" class="h1-responsive font-weight-bold my-5">Pero... ¿Quiénes somos?
+        </h2>
+        <!-- Section description -->
+        <p class="grey-text w-responsive mx-auto mb-5">Somos alumnos de 6to año 3ra division que dentro de la materia
+          desarrollo de sistemas,
+          decidimos implementar varias tecnologias investigadas en años previos para desarrollar algo nuevo e innovador
+          en el
+          ambito educativo.</p>
+
+        <!-- Grid row -->
+        <div class="row">
+
+          <!-- Grid column -->
+          <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+            <div class="avatar mx-auto">
+              <img src="Css/Img/rea.png" style="width:100%;" class="rounded-circle z-depth-1" alt="Sample avatar">
+            </div>
+            <h5 class="font-weight-bold mt-4 mb-3">Pablo Leandro Rea</h5>
+            <p class="text-uppercase blue-text"><strong>Desarrollador/ Team leader</strong></p>
+            <p class="grey-text">Desarrollador de la aplicacion de escritorio, página web y documentacion del proyecto,
+              coordinacion de distintas tareas.</p>
+            <ul class="list-unstyled mb-0">
+              <!-- Instagram -->
+              <a href="https://www.instagram.com/pabloleaa/" target="_blank" class="p-2 fa-lg ins-ic">
+                <i class="fab fa-instagram blue-text"> pabloleaa </i>
+              </a>
+              <a href="https://github.com/pablorea" target="_blank" class="p-2 fa-lg ins-ic">
+                <i class="fab fa-github blue-text"> pablorea</i>
+              </a>
+            </ul>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+            <div class="avatar mx-auto">
+              <img style="width:90%;" src="Css/Img/zeta.jpeg" class="rounded-circle z-depth-1" alt="Sample avatar">
+            </div>
+            <h5 class="font-weight-bold mt-4 mb-3">Juan Manuel Da Silva</h5>
+            <p class="text-uppercase blue-text"><strong>Desarrollador/Team lider</strong></p>
+            <p class="grey-text">Desarrollador de la aplicacion de escritorio y documentacion del proyecto, coordinacion
+              de distintas tareas.</p>
+            <ul class="list-unstyled mb-0">
+              <!-- Instagram -->
+              <a href="https://www.instagram.com/juanm.zeta/" target="_blank" class="p-2 fa-lg ins-ic">
+                <i class="fab fa-instagram blue-text"> juanm.zeta </i>
+              </a>
+              <a href="https://github.com/juandagraf" target="_blank" class="p-2 fa-lg ins-ic">
+                <i class="fab fa-github blue-text"> juandagraf</i>
+              </a>
+            </ul>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-lg-3 col-md-6 mb-md-0 mb-5">
+            <div class="avatar mx-auto">
+              <img style="width:100%;" src="Css/Img/Lescano.png" class="rounded-circle z-depth-1" alt="Sample avatar">
+            </div>
+            <h5 class="font-weight-bold mt-4 mb-3">Carlos Lescano</h5>
+            <p class="text-uppercase blue-text"><strong>Asesor técnico/Profesor</strong></p>
+            <p class="grey-text">Realizador de la propuesta didáctica y lider del proyecto.</p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-lg-3 col-md-6">
+            <div class="avatar mx-auto">
+              <img style="width: 100%;" src="Css/Img/ricci.jpg" class="rounded-circle z-depth-1" alt="Sample avatar">
+            </div>
+            <h5 class="font-weight-bold mt-4 mb-3">Mateo Ricci</h5>
+            <p class="text-uppercase blue-text"><strong>Desarrollador/Team liderr</strong></p>
+            <p class="grey-text">Desarrollo de la aplicacion de carga de datos de la aplicacion de escritorio,
+              aplicacion web y el sitio web del proyecto</p>
+            <ul class="list-unstyled mb-0">
+              <a href="https://www.instagram.com/riccimateov/" target="_blank" class="p-2 fa-lg ins-ic">
+                <i class="fab fa-instagram blue-text"> riccimateov </i>
+              </a>
+            </ul>
+          </div>
+          <!-- Grid column -->
+
+          <div class="col-lg-6 col-md-6 mb-md-0 mb-5 my-5">
+            <div class="avatar mx-auto">
+              <img style="width: 50%;" src="Css/Img/miño.png" class="rounded-circle z-depth-1" alt="Sample avatar">
+            </div>
+            <h5 class="font-weight-bold mt-4 mb-3">Alex Miño</h5>
+            <p class="text-uppercase blue-text"><strong>Desarrollador Movil</strong></p>
+            <p class="grey-text">Desarrollador de la aplicacion movil de realidad aumentada para visualizar mapas sobre
+              marcadores.</p>
+            <ul class="list-unstyled mb-0">
+
+              <!-- Instagram -->
+              <a href="https://www.instagram.com/alex_dm360/?hl=es-la" target="_blank" class="p-2 fa-lg ins-ic">
+                <i class="fab fa-instagram blue-text"> alex_dm360 </i>
+              </a>
+
+            </ul>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-lg-6 col-md-6 my-5">
+            <div class="avatar mx-auto">
+              <img style="width: 50%;" src="Css/Img/pereira.jpg" class="rounded-circle z-depth-1" alt="Sample avatar">
+            </div>
+            <h5 class="font-weight-bold mt-4 mb-3">Fernando Pereira</h5>
+            <p class="text-uppercase blue-text"><strong>Documentación audiovisual</strong></p>
+            <p class="grey-text">Documentación audiovisual (filmación de las clases donde se compartía el proyecto con
+              las divisiones del ciclo básico, fotografía y edición).</p>
+            <ul class="list-unstyled mb-0">
+            </ul>
+          </div>
+
+        </div>
+
+
+      </section>
+
+    </div>
+  </div>
+
+
+  <footer style="background-color:rgb(0,0,0,0.9);" class="page-footer font-small blue">
+
+
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+      <a href="http://proyectoet35.github.io/mapeo3d">Proyecto C3D </a>
+    </div>
+
+
+  </footer>
+
+
+  <!-- JQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/js/mdb.min.js"></script>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+
+    ScrollReveal().reveal('#bienvenido', {
+      delay: 350,
+      distance: '150%',
+      duration: 500,
+      origin: 'top',
+    });
+
+    ScrollReveal().reveal('#intro', {
+      delay: 800,
+      distance: '150%',
+      duration: 500,
+      origin: 'bottom',
+    });
+
+    ScrollReveal().reveal('#rapido', {
+      delay: 800,
+      distance: '150%',
+      duration: 500,
+      origin: 'right',
+    });
+
+    ScrollReveal().reveal('#tresde', {
+      delay: 900,
+      distance: '150%',
+      duration: 500,
+      origin: 'right',
+    });
+
+    ScrollReveal().reveal('#facil', {
+      delay: 1000,
+      distance: '150%',
+      duration: 500,
+      origin: 'right',
+    });
+
+    ScrollReveal().reveal('#free', {
+      delay: 1100,
+      distance: '150%',
+      duration: 500,
+      origin: 'right',
+    });
+
+
+    ScrollReveal().reveal('#sube', {
+      delay: 1500,
+      distance: '150%',
+      duration: 500,
+      origin: 'bottom',
+    });
+
+    ScrollReveal().reveal('#git', {
+      delay: 1500,
+      distance: '150%',
+      duration: 500,
+      origin: 'top',
+    });
+
+    ScrollReveal().reveal('#foto', {
+      delay: 1100,
+      distance: '150%',
+      duration: 500,
+      origin: 'left',
+    });
+
+    ScrollReveal().reveal('#parrafo1, #parrafo2, #parrafo3', {
+      delay: 500,
+      distance: '150%',
+      duration: 500,
+      origin: 'top',
+    });
+
+    ScrollReveal().reveal('#boton', {
+      delay: 1000,
+      distance: '150%',
+      duration: 500,
+      origin: 'bottom',
+    });
+
+
+    ScrollReveal().reveal('#titulo', {
+      delay: 1000,
+      distance: '150%',
+      duration: 500,
+      origin: 'top',
+    });
+
+
+    ScrollReveal().reveal('#mapa', {
+      delay: 800,
+      distance: '150%',
+      duration: 500,
+      origin: 'right',
+    });
+
+
+  </script>
+
+</body>
+
+</html>

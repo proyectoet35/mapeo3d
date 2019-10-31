@@ -1,0 +1,301 @@
+<!-----------------------  PRIMER PASO ------------------------>
+<div id="primerPaso" class="container">
+    <div class="card text-center container">
+        <h2 style="background-color: #2471A3; width: 100%; color: white;">Primer paso</h2>
+        <h1>Lo primero es descargar la aplicacion de escritorio</h1>
+        <hr style="margin-left: 20%; margin-right: 20%;">
+        <div class="container">
+            <div class="row">
+                <div class="w-100"></div>
+
+                <div class="col"><a id="descargaAplicacion" type="button" class="btn btn-primary  col-sm-6"
+                        href="https://drive.google.com/open?id=1SsvX3tP2FNjaxF4LxDNAarnVws8th98m"
+                        target="_blank">Descargar aplicacion</a>
+                </div>
+
+                <div class="col">
+                    <button type="button" id="siguiente" class="btn btn-secondary btn-lg">Siguiente paso</button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<!--------------------------- SEGUNDO PASO  ------------------->
+<div id="segundoPaso" class="container">
+    <div class="card text-center container">
+        <h2 style="background-color: #2471A3; width: 100%; color: white; ">Segundo paso</h2><br>
+        <h1>¿Hay impresoras 3D en tu aula?</h1>
+        <hr style="margin-left: 20%; margin-right: 20%;">
+        <!-- Si hay impresora -->
+        <div class="container">
+            <div class="row">
+                <div class="w-100">
+                    <!--  -->
+                </div>
+                <div class="col-sm-6">
+                    <button type="button" id="sihayimpresora" class="btn btn-primary  col-sm-6"> Si, hay impresoras
+                    </button>
+                    <button style="display: none;" type="button" id="volver" class="btn btn-primary col-sm-6"> Volver a
+                        elegir
+                    </button>
+                    <div style="display: none; margin-bottom: 5%; " id="elegirmapa" class="card ">
+                        <img height="230px;" src="Css/Img/maparojo.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Elige tu mapa</h5>
+                            <p class="card-text">Podes elegir algunos mapas e imprimirlos. Los alumnos no se van a
+                                olvidar nunca mas de estos datos!.</p>
+                            <a href="Demo.html" target="_blank" class="btn btn-primary">Ver mapas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- No hay impresora -->
+                <div class="col-sm-6">
+                    <button type="button" id="nohayimpresora" class="btn btn-primary col-sm-6"> No hay impresoras
+                    </button>
+                    <button style="display: none;" type="button" id="volver" class="btn btn-primary col-sm-6"> Volver a
+                        elegir
+                    </button>
+                    <div style="display: none; margin-bottom: 5%;" style="height: 400px;" id="cmd" class="card ">
+                        <img src="https://turismo.buenosaires.gob.ar/sites/turismo/files/cmd_980___1.jpg"
+                            class="card-img-top" alt="CMD">
+                        <div class="card-body">
+                            <h5 class="card-title">Visita al CMD</h5>
+                            <p class="card-text">Si podes contacta al CMD (Centro metropolitano de diseno) para imprimr,
+                                sino sigue nuestra explicacion.</p>
+                            <a href="https://www.buenosaires.gob.ar/cmd" target="_blank" type="button"
+                                class="btn btn-primary">Ir al CMD</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button id="siguiente" class="btn  btn-danger center-block col-xl-12" type="button">Continuar</button>
+
+</div>
+<!-----------------------  TERCER PASO ------------------------>
+<div id="tercerPaso" class="container">
+    <div class="card text-center container">
+        <h2 style="background-color: #2471A3; width: 100%; color: white;">Tercer paso</h2><br>
+        <h1>¿Hay una PC por alumno/grupo en el aula?</h1>
+        <hr style="margin-left: 20%; margin-right: 20%;">
+        <!-- <div class="container"> -->
+        <div class="container">
+            <div class="row">
+                <div class="w-100"></div>
+                <!-- Hay PC por alumno -->
+                <div class="col-sm-6">
+                    <button type="button" id="sihay" class="btn btn-primary  col-sm-6"> Si, hay
+                    </button>
+                    <a style="display: none;" type="button" id="volver" class="btn btn-primary col-sm-6"> Volver a
+                        elegir
+                    </a>
+                    <div style="display: none; margin-bottom: 5%;" id="web" class="card ">
+                        <img height="230px;" src="Css/Img/web.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Conoce la web</h5>
+                            <p class="card-text">Comparte la web en el aula. Instala C3D para trabajar todos juntos! a
+                                seguir aprendiendo.</p>
+                            <a href="https://proyectoet35.github.io/c3d/" target="_blank" class="btn btn-primary">Conocer web</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- No hay  PC por alumno-->
+                <div class="col-sm-6">
+
+                    <button type="button" id="nohay" class="btn btn-primary col-sm-6"> No hay </button>
+                    <button style="display: none;" type="button" id="volver" class="btn btn-primary col-sm-6"> Volver a
+                        elegir
+                    </button>
+                    <div style="display: none; margin-bottom: 5%;" id="instalac3d" class="card ">
+                        <video id="mapa" src="mapa.mp4" controls style="max-width:100%; height:auto"></video>
+
+
+                        <div class="card-body">
+                            <h5 class="card-title">Mira el video e instala C3D</h5>
+                            <p class="card-text">Podes instalarlo en una PC/tablet y con un proyector comparti la
+                                experiencia con tus alumnos.</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+        
+    </div>
+    <button id="siguiente" class="btn  btn-danger center-block col-xl-12" type="button">Continuar</button>
+
+
+</div>
+<!-----------------------  CUARTO PASO ------------------------>
+<div id="cuartoPaso" class="container">
+    <div class="card text-center container">
+        <h2 style="background-color: #2471A3; width: 100%; color: white;">Cuarto paso</h2><br>
+        <h1>¿Hay tabletas o celulares con android en el aula?</h1>
+        <hr style="margin-left: 20%; margin-right: 20%;">
+
+
+        <div class="container">
+            <div class="row">
+                <div class="w-100"></div>
+                <div class="col-sm-6">
+                    <button type="button" id="sihaycel" class="btn btn-primary  col-sm-6"> Si, hay
+                    </button>
+                    <a style="display: none;" type="button" id="volver" class="btn btn-primary col-sm-6"> Volver a
+                        elegir </a>
+                    <div style="display: none; margin-bottom: 5%;" id="rea" class="card ">
+                        <img height="230px;" src="Css/Img/realidad_aumentada.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Realidad aumentada</h5>
+                            <p class="card-text">La aplicacion de realidad aumentada es una forma muy entretenida de
+                                explorar
+                                los datos. Imprimi cuantos marcadores necesites y empeza a trabajar!</p>
+                            <a href="https://www.youtube.com/watch?v=N3nZUD09A80" target="_blank" class="btn btn-primary">Ver tutorial</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-6">
+                    <button type="button" id="nohaycel" class="btn btn-primary col-sm-6"> No hay </button>
+                    <button style="display: none;" type="button" id="volver" class="btn btn-primary col-sm-6"> Volver a
+                        elegir
+                    </button>
+                    <div style="display: none; margin-bottom: 5%;" id="sirea" class="card ">
+                        <img src="Css/Img/RA2.jpeg"
+                            class="card-img-top" alt="CMD">
+                        <div class="card-body">
+                            <h5 class="card-title">No te desanimes</h5>
+                            <p class="card-text">En general siempre se consiguen, ya sea celulares o tablets. Preguntale
+                                a tus alumnos, con 1 por grupo y asi podrias ver los datos en realidad aumentada.</p>
+                            <!-- <a href="https://www.buenosaires.gob.ar/cmd" target="_blank" type="button"
+                                class="btn btn-primary">Ir al CMD</a> -->
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+      
+
+
+    </div>
+    <button id="siguiente" class="btn  btn-danger center-block col-xl-12" type="button">Continuar</button>
+</div>
+<!-----------------------  QUINTO PASO ------------------------>
+<div id="quintoPaso" class="container">
+    <div class="card text-center container">
+        <h2 style="background-color: #2471A3; width: 100%; color: white;">Quinto paso</h2><br>
+        <h1>¿Hay informacion que te gustaria mostrarle a tus alumnos, pero aun no las has visto en la lista?</h1>
+        <hr style="margin-left: 20%; margin-right: 20%;">
+
+
+        <div class="container">
+            <div class="row">
+                <div class="w-100"></div>
+                <div class="col-sm-6">
+                    <button type="button" id="siagrego" class="btn btn-primary  col-sm-6"> Si, me gustaria
+                    </button>
+                    <a style="display: none;" type="button" id="volver" class="btn btn-primary col-sm-6"> Volver a
+                        elegir
+                    </a>
+                    <div style="display: none; margin-bottom: 5%;" id="creardatos" class="card ">
+                        <img height="230px;" src="Css/Img/info2.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Carga tus propios datos</h5>
+                            <p class="card-text">Siempre podes agregarle mas datos con nuestra aplicacion de carga.</p>
+                            <a href="https://proyectoet35.github.io/c3d/" target="_blank" class="btn btn-primary">Pruebala</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-6">
+                    <button type="button" id="nohaylista" class="btn btn-primary col-sm-6"> No hay en la lista
+                    </button>
+                    <button style="display: none;" type="button" id="volver" class="btn btn-primary col-sm-6"> Volver a
+                        elegir
+                    </button>
+                    <div style="display: none; margin-bottom: 5%;" id="investiga" class="card ">
+                        <img height="230px;" src="Css/Img/datos.png" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Investiguen</h5>
+                            <p class="card-text">Dale la oportunidad de agregar informacion nueva, investiga, busca
+                                informacion de tu interes. Usen la aplicacion para agregar ese contenido extra.</p>
+                            <a href="https://datos.gob.ar/" target="_blank" type="button"
+                                class="btn btn-primary">Visitar web</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        
+
+
+    </div>
+    <button id="siguiente" class="btn  btn-danger center-block col-xl-12" type="button">Continuar</button>
+</div>
+<!-----------------------  SEXTO PASO ------------------------>
+<div id="sextoPaso" class="container">
+    <div class="card text-center container">
+        <h2 style="background-color: #2471A3; width: 100%; color: white;">Sexto paso</h2><br>
+        <h1>¿Aún seguís sin entender la forma de usar C3D?</h1>
+        <hr style="margin-left: 20%; margin-right: 20%;">
+
+
+        <div class="container">
+            <div class="row">
+                <div class="w-100"></div>
+                <div class="col-sm-6">
+                    <button type="button" id="sientiende" class="btn btn-primary  col-sm-6"> Si, entiendo
+                    </button>
+                    <a style="display: none;" type="button" id="volver" class="btn btn-primary col-sm-6"> Volver a
+                        elegir
+                    </a>
+                    <div style="display: none; margin-bottom: 5%;" id="experiencia" class="card ">
+                        <img height="230px;" src="Css/Img/maparojo.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">¡Contanos tu experiencia!</h5>
+                            <p class="card-text">Compartí con nosotros tu experiencia de uso, envianos un correo electrónico .</p>
+                            <!-- <a href="Demo.html" target="_blank" class="btn btn-primary">Contactar</a> -->
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-6">
+                    <button type="button" id="noentiende" class="btn btn-primary col-sm-6"> No entiendo
+                    </button>
+                    <button style="display: none;" type="button" id="volver" class="btn btn-primary col-sm-6"> Volver a
+                        elegir
+                    </button>
+                    <div style="display: none; margin-bottom: 5%;" id="tutoriales" class="card ">
+                        <img height="230px;" src="Css/Img/youtube.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mira los tutoriales</h5>
+                            <p class="card-text">Mira los video tutoriales que tenemos en nuestro canal de YouTube, ahí vas a encontrar muchas mas información al respecto.</p>
+                            <button href="https://www.youtube.com/channel/UC-PxROUdhhcFz_hegBNIn7w" target="_blank" type="button"
+                                class="btn btn-primary">Ir al canal</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <a type="button" href="index.html" id="siguiente" class="btn  btn-danger center-block col-xl-12" type="button">¡Finalizar!</button>
+
+</div>
